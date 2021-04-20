@@ -3,15 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const nayoks = ['Anwar','Jafor','Alomgir','Salman']
   return (
     <div className="App">
       <header className="App-header">
        <p>i am a React Person</p>
-       <Person nayok= "Rubel" nayika ="Moushumi"></Person>
-       <Person nayok = "Jasim" nayika ="Shabana"></Person>
-       <Person nayok = "y1" nayika ="x1"></Person>
-       <Person nayok = "y2" nayika ="x2"></Person>
-       <Person nayok = "y3" nayika ="x3"></Person>
+       <Person nayok= {nayoks[0]} nayika ="Moushumi"></Person>
+       <Person nayok = {nayoks[1]} nayika ="Shabana"></Person>
+       <Person nayok = {nayoks[2]} nayika ="x1"></Person>
+       <Person nayok = {nayoks[3]} nayika ="x2"></Person>
+       
       </header>
     </div>
   );
