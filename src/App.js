@@ -30,15 +30,9 @@ function App() {
 
 function Counter(){
   const [count,setCount] = useState(10);
-  const handleIncrease = () => {
-    const newCount = count+1;
-    setCount ( newCount );
-  };
+  const handleIncrease = () => { setCount ( count+1); };
 
-  const handleDecrease = () =>  {
-    const newCount = count - 1;
-    setCount(newCount);
-  }
+  const handleDecrease = () =>  { setCount(count - 1); }
   //const handleIncrease = () =>console.log('clicked');
   return (
     <div>
